@@ -1,8 +1,8 @@
-Var Express = Require('Express');
-Var App = Express();
-App.Use(express.logger());
+var Express = Require('Express');
+var App = Express();
+app.use(express.logger());
 
-app.Get('/', function(request, response) {
+app.get('/', function(request, response) {
   response.send('Hello World2!');
 });
 
